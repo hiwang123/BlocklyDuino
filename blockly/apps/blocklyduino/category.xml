@@ -126,6 +126,58 @@
         </block>
     </category>
 </category>
+<category id="category_7697_starter">
+    <category id="category_7697_starter_input">
+        <block type="text">
+            <field name="TEXT">test645</field>
+        </block>
+        <block type="text">
+            <field name="TEXT">test242</field>
+        </block>
+    </category>
+    <category id="category_7697_starter_output">
+        <block type="text">
+            <field name="TEXT">test957</field>
+        </block>
+        <block type="text">
+            <field name="TEXT">test048</field>
+        </block>
+    </category>
+    <category id="category_7697_starter_sensor">
+        <block type="text">
+            <field name="TEXT">test294</field>
+        </block>
+        <block type="text">
+            <field name="TEXT">test691</field>
+        </block>
+    </category>
+    <category id="category_7697_starter_oled">
+        <block type="text">
+            <field name="TEXT">test093</field>
+        </block>
+        <block type="text">
+            <field name="TEXT">test103</field>
+        </block>
+    </category>
+</category>
+<category id="category_mcs">
+    <category id="category_mcs_online">
+        <block type="text">
+            <field name="TEXT">test123</field>
+        </block>
+        <block type="text">
+            <field name="TEXT">test456</field>
+        </block>
+    </category>
+    <category id="category_mcs_lite">
+        <block type="text">
+            <field name="TEXT">test789</field>
+        </block>
+        <block type="text">
+            <field name="TEXT">test012</field>
+        </block>
+    </category>
+</category>
 <category id="category_cloud_service">
     <category id="category_ifttt">
         <block type="text">

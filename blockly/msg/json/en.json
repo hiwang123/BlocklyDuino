@@ -1,7 +1,7 @@
 {
 	"@metadata": {
 		"author": "Ellen Spertus <ellen.spertus@gmail.com>",
-		"lastupdated": "2017-03-23 21:36:54.518581",
+		"lastupdated": "2017-03-23 22:42:19.191320",
 		"locale": "en",
 		"messagedocumentation" : "qqq"
 	},
@@ -77,9 +77,17 @@
 	"CAST_NUMBER_HELPURL": "https://www.arduino.cc/en/Reference/Cast",
 	"CAST_NUMBER_TITLE": "Type Cast",
 	"CAST_NUMBER_TOOLTIP": "The cast operator translates one variable type into another and forces calculations to be performed in the cast type.",
-	"CATEGORY_7697": "MT7697",
+	"CATEGORY_7697": "Linkit 7697",
 	"CATEGORY_7697_BLE": "Ble",
 	"CATEGORY_7697_WIFI": "Wifi",
+	"CATEGORY_7697_STARTER": "7697 Starterkit",
+	"CATEGORY_7697_STARTER_INPUT": "Input",
+	"CATEGORY_7697_STARTER_OUTPUT": "Output",
+	"CATEGORY_7697_STARTER_SENSOR": "Sensors",
+	"CATEGORY_7697_STARTER_OLED": "OLED",
+	"CATEGORY_MCS": "MCS",
+	"CATEGORY_MCS_ONLINE": "MCS online",
+	"CATEGORY_MCS_LITE": "MCS lite",
 	"CATEGORY_ADAFRUIT": "Adafruit",
 	"CATEGORY_AEROBOT": "AERobot",
 	"CATEGORY_ANALOG": "Analog",

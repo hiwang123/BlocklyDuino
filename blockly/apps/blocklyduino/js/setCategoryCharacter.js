@@ -12,6 +12,14 @@ function setCategoryCharacter() {
   $('#category_7697').attr('name',Blockly.Msg.CATEGORY_7697);
   $('#category_7697_wifi').attr('name',Blockly.Msg.CATEGORY_7697_WIFI);
   $('#category_7697_ble').attr('name',Blockly.Msg.CATEGORY_7697_BLE);
+  $('#category_7697_starter').attr('name',Blockly.Msg.CATEGORY_7697_STARTER);
+  $('#category_7697_starter_input').attr('name',Blockly.Msg.CATEGORY_7697_STARTER_INPUT);
+  $('#category_7697_starter_output').attr('name',Blockly.Msg.CATEGORY_7697_STARTER_OUTPUT);
+  $('#category_7697_starter_sensor').attr('name',Blockly.Msg.CATEGORY_7697_STARTER_SENSOR);
+  $('#category_7697_starter_oled').attr('name',Blockly.Msg.CATEGORY_7697_STARTER_OLED);
+  $('#category_mcs').attr('name',Blockly.Msg.CATEGORY_MCS);
+  $('#category_mcs_online').attr('name',Blockly.Msg.CATEGORY_MCS_ONLINE);
+  $('#category_mcs_lite').attr('name',Blockly.Msg.CATEGORY_MCS_LITE);
   $('#category_ifttt').attr('name',Blockly.Msg.CATEGORY_IFTTT);
   $('#category_ir_remote').attr('name',Blockly.Msg.CATEGORY_IR_REMOTE);
   $('#category_m2x').attr('name',Blockly.Msg.CATEGORY_M2X);
@@ -49,6 +57,8 @@ function setCategoryCharacter() {
   $('label[for="chbox_category_ethernet"]').text(Blockly.Msg.CATEGORY_ETHERNET);
   $('label[for="chbox_category_cloud_service"]').text(Blockly.Msg.CATEGORY_CLOUD_SERVICE);
   $('label[for="chbox_category_7697"]').text(Blockly.Msg.CATEGORY_7697);
+  $('label[for="chbox_category_7697_starter"]').text(Blockly.Msg.CATEGORY_7697_STARTER);
+  $('label[for="chbox_category_mcs"]').text(Blockly.Msg.CATEGORY_MCS);
   $('label[for="chbox_category_ifttt"]').text(Blockly.Msg.CATEGORY_IFTTT);
   $('label[for="chbox_category_ir_remote"]').text(Blockly.Msg.CATEGORY_IR_REMOTE);
   $('label[for="chbox_category_m2x"]').text(Blockly.Msg.CATEGORY_M2X);
