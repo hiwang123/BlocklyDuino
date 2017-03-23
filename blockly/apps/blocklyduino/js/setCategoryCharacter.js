@@ -9,6 +9,9 @@ function setCategoryCharacter() {
   $('#category_ethernet_init').attr('name',Blockly.Msg.CATEGORY_ETHERNET_INIT);
   $('#category_ethernet_client').attr('name',Blockly.Msg.CATEGORY_ETHERNET_CLIENT);
   $('#category_cloud_service').attr('name',Blockly.Msg.CATEGORY_CLOUD_SERVICE);
+  $('#category_7697').attr('name',Blockly.Msg.CATEGORY_7697);
+  $('#category_7697_wifi').attr('name',Blockly.Msg.CATEGORY_7697_WIFI);
+  $('#category_7697_ble').attr('name',Blockly.Msg.CATEGORY_7697_BLE);
   $('#category_ifttt').attr('name',Blockly.Msg.CATEGORY_IFTTT);
   $('#category_ir_remote').attr('name',Blockly.Msg.CATEGORY_IR_REMOTE);
   $('#category_m2x').attr('name',Blockly.Msg.CATEGORY_M2X);
@@ -45,6 +48,7 @@ function setCategoryCharacter() {
   //  $('#category_involt').attr('name',Blockly.Msg.CATEGORY_INVOLT);
   $('label[for="chbox_category_ethernet"]').text(Blockly.Msg.CATEGORY_ETHERNET);
   $('label[for="chbox_category_cloud_service"]').text(Blockly.Msg.CATEGORY_CLOUD_SERVICE);
+  $('label[for="chbox_category_7697"]').text(Blockly.Msg.CATEGORY_7697);
   $('label[for="chbox_category_ifttt"]').text(Blockly.Msg.CATEGORY_IFTTT);
   $('label[for="chbox_category_ir_remote"]').text(Blockly.Msg.CATEGORY_IR_REMOTE);
   $('label[for="chbox_category_m2x"]').text(Blockly.Msg.CATEGORY_M2X);

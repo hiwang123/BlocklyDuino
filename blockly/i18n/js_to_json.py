@@ -89,8 +89,8 @@ def main():
         result = {}
         result['meaning'] = match.group(1)
         result['source'] = match.group(2)
-        if not description:
-          print('Warning: No description for ' + result['meaning'])
+        #if not description:
+        #  print('Warning: No description for ' + result['meaning'])
         result['description'] = description
         description = ''
         results.append(result)

@@ -44,10 +44,6 @@
                                 <input class="with-gap" name="group1" type="radio" id="select-lang-ja" value="ja">
                                 <label for="select-lang-ja" id="label-ja">日本語</label>
                             </td>
-                            <td>
-                                <input class="with-gap" name="group1" type="radio" id="select-lang-ja_kids" value="ja_kids">
-                                <label for="select-lang-ja_kids" id="label-ja-kids">にほんご</label>
-                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -78,10 +74,7 @@
                                     <input type="checkbox" class="filled-in" id="chbox_category_cloud_service" value="category_cloud_service">
                                     <label for="chbox_category_cloud_service">category_cloud_service</label>
                                 </td>
-                                <td>
-                                    <input type="checkbox" class="filled-in" id="chbox_category_sparkfun" value="category_sparkfun">
-                                    <label for="chbox_category_sparkfun">SparkFun</label>
-                                </td>
+                                <td></td>
                             </tr>
                             <tr>
                                 <td>
@@ -99,10 +92,13 @@
                             </tr>
                             <tr>
                                 <td>
+                            	    <input type="checkbox" class="filled-in" id="chbox_category_7697" value="category_7697">
+                                    <label for="chbox_category_7697">7697</label>
+                                </td>
+                                <td>
                                     <input type="checkbox" class="filled-in" id="chbox_category_other_sensor" value="category_other_sensor">
                                     <label for="chbox_category_other_sensor">other sensor</label>
                                 </td>
-                                <td></td>
                                 <td></td>
                             </tr>
                         </tbody>
@@ -303,6 +299,24 @@
     <block type="interrupts_no"></block>
 </category>
 <sep id="category_sep"></sep>
+<category id="category_7697">
+    <category id="category_7697_wifi">
+        <block type="text">
+            <field name="TEXT">test123</field>
+        </block>
+        <block type="text">
+            <field name="TEXT">test456</field>
+        </block>
+    </category>
+    <category id="category_7697_ble">
+        <block type="text">
+            <field name="TEXT">test789</field>
+        </block>
+        <block type="text">
+            <field name="TEXT">test012</field>
+        </block>
+    </category>
+</category>
 <category id="category_cloud_service">
     <category id="category_ifttt">
         <block type="text">
@@ -735,33 +749,7 @@
 </category>
 <category id="category_sparkfun">
     <category id="category_ir_remote">
-
-        <block type="variables_set" inline="false">
-            <field name="TYPE">Unsigned_Long</field>
-            <field name="VAR">button</field>
-            <value name="VALUE">
-                <block type="ir_remote_get"></block>
-            </value>
-        </block> <!-- ir_get shown inside a set var block -->
-        <!--
-        <block type="logic_compare">
-            <field name="OP">EQ</field>
-            <value name="A">
-                <block type="variables_get">
-                    <field name="TYPE">Unsigned_Long</field>
-                    <field name="VAR">button</field>
-                </block>
-            </value>
-            <value name="B">
-                <block type="ir_remote_button">
-                    <field name="BUTTON">POWER</field>
-                </block>
-            </value>
-        </block> <!- - ir_button compared w/ variable in an equals block - ->
-        -->
-        <!--
         <block type="ir_remote_get"></block>
-        -->
         <block type="ir_remote_button"></block>
     </category>
 </category>
@@ -947,13 +935,15 @@
 <sep></sep>
 <category id="category_variables" custom="VARIABLE"></category>
 <category id="category_functions" custom="PROCEDURE"></category>
+
 <sep></sep>
 <!--category id="category_involt">
 <block type="involt_directmode"></block>
 <block type="involt_chromereceive"></block>
 <block type="involt_sendvalue"></block>
 <block type="involt_receivevalue"></block>
-</category--></xml>
+</category-->
+</xml>
 
     <div class="info">
     </div>

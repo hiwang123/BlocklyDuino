@@ -108,6 +108,24 @@
     <block type="interrupts_no"></block>
 </category>
 <sep id="category_sep"></sep>
+<category id="category_7697">
+    <category id="category_7697_wifi">
+        <block type="text">
+            <field name="TEXT">test123</field>
+        </block>
+        <block type="text">
+            <field name="TEXT">test456</field>
+        </block>
+    </category>
+    <category id="category_7697_ble">
+        <block type="text">
+            <field name="TEXT">test789</field>
+        </block>
+        <block type="text">
+            <field name="TEXT">test012</field>
+        </block>
+    </category>
+</category>
 <category id="category_cloud_service">
     <category id="category_ifttt">
         <block type="text">
